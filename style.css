@@ -18,6 +18,10 @@ header, nav, section, footer{
   border: 3px solid black;
   margin-bottom: 25px;
 }
+
+ul{
+  list-style-type: none;
+}
 /*  */
 
 

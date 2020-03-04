@@ -1,0 +1,23 @@
+/* debug */
+body *{
+  border: 1px solid black;
+  min-height: 60px !important;
+}
+
+[class*="col-"] {
+  background-color: lightyellow;
+  min-height: 60px !important;
+}
+
+
+header, nav, section, footer{
+  border: 3px solid black;
+  margin: 15px 0;
+}
+/*  */
+
+/* regole generali */
+body > header > *, body > section > *, body > footer > *{
+  /* necessario a centrare le col */
+  width: 100%;
+}

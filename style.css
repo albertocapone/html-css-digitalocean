@@ -75,9 +75,11 @@ ul{
 
 /* sezione: sponsor */
 img.sponsor{
-  width: 100%;
+  width: 80%;
 }
 /*  */
+
+
 
 /* sezione info */
 .info ul{
@@ -87,12 +89,28 @@ img.sponsor{
 .info li{
  border-left: 1px solid gray;
 }
+/*  */
 
+/* sezione: fordevs 1 */
+.fordevs_uno img{
+  width: 100%;
+}
+/*  */
 
+/* sezione data */
+.data table{
+  width: 100%;
+}
 
+.data table *{
+  border: none;
+  border-bottom: 1px solid gray;
+}
 
-
-
+/* sezione: for devs 2 */
+.fordevs_due img{
+  width: 100%;
+}
 
 /* footer */
 footer{

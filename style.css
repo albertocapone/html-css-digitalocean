@@ -101,6 +101,15 @@ ul{
 
 
 /* sezione: sponsor */
+.sponsor *{
+  /* debug */
+  border: 0;
+}
+
+.sponsor{
+  padding: 10px 75px;
+  background-color: #f3f5f9;
+}
 .sponsor .allineatore{
   width: 100%;
   height: 150px;
@@ -108,11 +117,21 @@ ul{
 }
 
 .sponsor img{
-  width: 70%;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.sponsor h5{
+  color: #031c4e;
+  font-size: 15px;
+}
+
+.sponsor h6{
+  color: #2b82ff;
+  font-size: 15px;
 }
 /*  */
 

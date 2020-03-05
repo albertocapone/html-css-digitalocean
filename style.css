@@ -37,36 +37,56 @@ ul{
 /* sezione di testa */
       /* nav */
       /* regole generali */
-       nav img{
-        width: 90%;
-        position: absolute;
-        top: 10%;
-      }
-
-       nav a:not(.burger){
+       nav a{
         float: left;
         width: 25%;
       }
 
-       .navbar_left, .navbar_right{
+      .logo, .burger{
+        display: block;
+        float: none;
+        width: 100%;
+        height: 100%;
+      }
+
+       .center_navbar_left, .center_navbar_right{
         width: 100%;
         transform: translate(0, 50%);
       }
+
+      nav .allineatore{
+        width: 100%;
+        height: 58px;
+        position: relative;
+      }
       /*  */
 
-        /* navbar left */
+        /* logo*/
+        .logo > img{
+          width: 90%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+       }
         /*  */
 
-        /* navbar right */
-        .burger{
-          display: block;
-          width: 100%;
-          min-height: 20px;
-          padding: 12px;
-        }
+        /* center navbar left */
+        
+        /*  */
+
+        /* center navbar left */
+
+        /*  */
+
+
+        /* burger */
         .burger i{
-          font-size: 35px;
-          font-weight: 600;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 30px;
         }
         /*  */
 
@@ -75,13 +95,13 @@ ul{
 
 
 /* sezione: sponsor */
-.allineatore{
+.sponsor .allineatore{
   width: 100%;
   height: 150px;
   position: relative;
 }
 
-img.sponsor{
+.sponsor img{
   width: 70%;
   position: absolute;
   top: 50%;

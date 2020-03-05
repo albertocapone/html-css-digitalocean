@@ -5,7 +5,7 @@ body *{
 }
 
 [class*="col-"] {
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
   min-height: 60px !important;
 }
 
@@ -101,7 +101,6 @@ ul{
 
 
 /* sezione: sponsor */
-
 .sponsor .allineatore{
   width: 100%;
   height: 150px;
@@ -136,33 +135,98 @@ ul{
 }
 /*  */
 
+
+
 /* sezione data */
+.data *{
+  /* debug */
+ border: 0;
+}
+
+.data{
+  background-color: #0030aa;
+  color: white;
+  padding: 50px 0;
+}
+
+.data h2{
+  color: white;
+  font-weight: 600;
+}
+
 .data table{
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .data table *{
   border: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid white;
+  padding: 9px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.data th:first-child{
+  color: white;
+}
+
+.data th:last-child{
+  color: #00d5d1;
 }
 /*  */
 
 
 
 /* sezione: for devs 2 */
+.fordevs_due h2{
+  color: #031c4e;
+  font-weight: 600;
+}
+
 .fordevs_due img{
   width: 100%;
 }
 /*  */
 
+
+
+/* sezione create_account */
+.create_account *{
+  border: 0 ;
+}
+
+.create_account{
+  background-color: #0030aa;
+  padding: 50px 0;
+}
+
+.create_account h2{
+  color: white;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.create_account .btn{
+  background-color: white;
+  color: #006aff;
+}
+/*  */
+
+
+
 /* footer */
 footer{
+  /* debug  */
   margin-bottom: 0;
+  /*  */
+  background-color: #010e28;
+  padding: 50px 0;
 }
 
 footer *{
-  background-color: #010e28;
-  border: 0;
+ border: 0;
 }
 
 footer [class*="col-"] {
@@ -171,5 +235,17 @@ footer [class*="col-"] {
 
 footer img{
   width: 10%;
+}
+
+footer a, footer h5{
+  color: gray;
+}
+
+footer h4{
+  color: white;
+}
+
+footer h6, .socialbar{
+  color: darkgray;
 }
 /*  */

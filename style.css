@@ -135,7 +135,46 @@ ul{
 }
 /*  */
 
+/* sezione: features */
+.features *{
+  /* debug */
+  border: 0;
+}
 
+.features{
+  padding: 50px 0;
+}
+
+.features img{
+  width: 50px;
+  height: auto;
+}
+
+.features h2, .features h3{
+  color: #031c4e;
+  font-weight: 600;
+}
+
+.features h2{
+  margin-bottom: 15px;
+}
+
+.features h3{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.features h4{
+  color: #5c6a88;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.features h5{
+  color: #2b82ff;
+  font-size: 12px;
+  font-weight: 400;
+}
 
 /* sezione data */
 .data *{
@@ -247,5 +286,6 @@ footer h4{
 
 footer h6, .socialbar{
   color: darkgray;
+  margin-bottom: 25px;
 }
 /*  */

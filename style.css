@@ -254,10 +254,6 @@ header .intestazione > p{
   color: #5c6a88;
 }
 
-.fordevs_uno img{
-  margin-top: 25px;
-  width: 100%;
-}
 /*  */
 
 /* sezione: features */
@@ -370,7 +366,7 @@ header .intestazione > p{
   top: 0;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 70%;
+  width: 100%;
 }
 /*  */
 

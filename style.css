@@ -242,6 +242,11 @@ ul{
   color: #5c6a88;
 }
 
+.fordevs_uno h5{
+  color: #031c4e;
+  font-size: 17px;
+}
+
 .infograf_cont{
   position: relative;
   width: 100%;
@@ -271,10 +276,11 @@ ul{
   left: 95%;
 }
 
-.fas.fa-ellipsis-h{
+.dots_menu{
   margin-top: 20px;
   display: block;
-  font-size: 120%;
+  color: #337ab7;
+  font-size: 70%;
   text-align: center;
 }
 /* end sezione: fordevs 1 e 2 */
@@ -322,6 +328,10 @@ ul{
 
 
 /* sezione data */
+/* .data *{
+border: 1px solid black;
+} */
+
 .data{
   background-color: #0030aa;
   color: white;
@@ -347,11 +357,11 @@ ul{
   color: gray;
 }
 
-.data th:first-child{
+.data td:first-child{
   color: white;
 }
 
-.data th:last-child{
+.data td:last-child{
   color: #00d5d1;
 }
 /* end sezione: data  */

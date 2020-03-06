@@ -6,7 +6,7 @@ body *{
 
 [class*="col-"] {
   /* background-color: lightyellow; */
-  min-height: 60px !important;
+  /* min-height: 60px !important; */
 }
 
 header, nav, section, footer{
@@ -67,6 +67,11 @@ ul{
         transform: translate(0, 50%);
       }
 
+      nav i{
+        margin-left: 3px;
+        font-size: 90%;
+      }
+
       nav .allineatore{
         width: 100%;
         height: 58px;
@@ -100,6 +105,7 @@ ul{
 
         /* burger */
         .burger i{
+          margin: 0;
           position: absolute;
           top: 50%;
           left: 50%;
@@ -185,6 +191,11 @@ header .intestazione > p{
   color: #2b82ff;
   font-size: 15px;
 }
+
+.sponsor i{
+  margin-left: 3px;
+  font-size: 80%;
+}
 /*  */
 
 
@@ -237,7 +248,7 @@ header .intestazione > p{
 /* sezione: fordevs 1 */
 .fordevs_uno *{
   /* debug */
-  border: 0;
+  /* border: 0; */
 }
 
 .fordevs_uno{
@@ -297,6 +308,11 @@ header .intestazione > p{
   font-weight: 400;
 }
 
+.features i{
+  margin-left: 3px;
+  font-size: 80%;
+}
+
 /* sezione data */
 .data *{
   /* debug */
@@ -340,11 +356,6 @@ header .intestazione > p{
 
 
 /* sezione: for devs 2 */
-.fordevs_due *{
-  /* debug */
-  border: 0;
-}
-
 .fordevs_due{
   background-color: #f3f5f9;
   padding: 50px 0;
@@ -366,8 +377,32 @@ header .intestazione > p{
   top: 0;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 100%;
+  width: 90%;
+  padding: 0 5%;
 }
+
+.fordevs_uno a, .fordevs_due a{
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  font-size: 200%;
+  text-align: center;
+}
+
+.fordevs_uno .right, .fordevs_due .right {
+  top: 50%;
+  left: 95%;
+}
+
+.fas.fa-ellipsis-h{
+  margin-top: 20px;
+  display: block;
+  font-size: 120%;
+  text-align: center;
+}
+
 /*  */
 
 

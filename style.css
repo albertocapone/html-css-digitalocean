@@ -133,6 +133,10 @@ ul{
       padding: 0 5px;
     }
 
+    .get_started h2 > span{
+      color: #2b82ff;
+    }
+
     .google > div{
       position: relative;
     }
@@ -328,10 +332,6 @@ ul{
 
 
 /* sezione data */
-/* .data *{
-border: 1px solid black;
-} */
-
 .data{
   background-color: #0030aa;
   color: white;

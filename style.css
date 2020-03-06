@@ -348,21 +348,31 @@ border: 1px solid black;
   margin-bottom: 30px;
 }
 
-.data table *{
-  border: none;
+.data table tr{
+  /* border: none; */
   border-bottom: 1px solid white;
-  padding: 9px;
-  font-size: 15px;
+  /* padding: 9px; */
+  font-size: 12px;
   font-weight: lighter;
   color: gray;
+}
+
+.data table td{
+  padding: 9px;
 }
 
 .data td:first-child{
   color: white;
 }
 
-.data td:last-child{
+.data td > a > span{
   color: #00d5d1;
+}
+
+.data .glyphicon.glyphicon-chevron-right{
+  font-size: 70%;
+  font-weight:
+  padding-left: 0;
 }
 /* end sezione: data  */
 

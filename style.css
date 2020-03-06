@@ -19,6 +19,10 @@ ul{
   width: 100%;
   height: 100%;
 }
+
+a:hover{
+  text-decoration-line: none;
+}
 /*  */
 
 
@@ -349,9 +353,7 @@ ul{
 }
 
 .data table tr{
-  /* border: none; */
   border-bottom: 1px solid white;
-  /* padding: 9px; */
   font-size: 12px;
   font-weight: lighter;
   color: gray;
@@ -371,7 +373,6 @@ ul{
 
 .data .glyphicon.glyphicon-chevron-right{
   font-size: 70%;
-  font-weight:
   padding-left: 0;
 }
 /* end sezione: data  */

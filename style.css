@@ -1,21 +1,3 @@
-/* debug */
-body *{
-  /* border: 1px solid black; */
-  /* min-height: 60px !important; */
-}
-
-[class*="col-"] {
-  /* background-color: lightyellow; */
-  /* min-height: 60px !important; */
-}
-
-header, nav, section, footer{
-  /* border: 3px solid black; */
-  /* margin-bottom: 25px; */
-}
-/*  */
-
-
 /* regole generali */
 body > header > *, body > section > *, body > footer > *{
   /* necessario a centrare le col */
@@ -41,129 +23,122 @@ ul{
 
 
 /* sezione di testa */
-      /* nav */
-      /* regole generali */
-      nav{
-        padding-bottom: 15px;
-      }
+  /* sottosezione: nav */
+    /* regole generali */
+    nav{
+    padding-bottom: 15px;
+    }
 
-       nav a{
-        float: left;
-        width: 25%;
-        color: #031c4e;
-        font-size: 100%;
-        padding: 5px 0;
-      }
+    nav a{
+    float: left;
+    width: 25%;
+    color: #031c4e;
+    font-size: 100%;
+    padding: 5px 0;
+    }
 
-      .logo, .burger{
-        display: block;
-        float: none;
-        width: 100%;
-        height: 100%;
-      }
+    .logo, .burger{
+    display: block;
+    float: none;
+    width: 100%;
+    height: 100%;
+    }
 
-       .center_navbar_left, .center_navbar_right{
-        width: 100%;
-        transform: translate(0, 50%);
-      }
+    .center_navbar_left, .center_navbar_right{
+    width: 100%;
+    transform: translate(0, 50%);
+    }
 
-      nav i{
-        margin-left: 3px;
-        font-size: 90%;
-      }
+    nav i{
+    margin-left: 3px;
+    font-size: 90%;
+    }
 
-      nav .allineatore{
-        width: 100%;
-        height: 58px;
-        position: relative;
+    nav .allineatore{
+    width: 100%;
+    height: 58px;
+    position: relative;
+    }
+    /*  */
+
+      /* logo*/
+      .logo > img{
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
       /*  */
 
-        /* logo*/
-        .logo > img{
-          width: 90%;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-       }
-        /*  */
+      /* center navbar left */
 
-        /* center navbar left */
+      /*  */
 
-        /*  */
+      /* center navbar right */
+      .center_navbar_right > .btn{
+        font-size: 100%;
+        background-color: white;
+        border-color: #006aff;
+        color: #006aff;
+      }
+      /*  */
 
-        /* center navbar right */
-        .center_navbar_right > .btn{
-          font-size: 100%;
-          background-color: white;
-          border-color: #006aff;
-          color: #006aff;
-        }
-        /*  */
+      /* burger */
+      .burger i{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        color: #2285fd;
+      }
+      /*  */
+  /*  */
 
+  /* sottosezione: intestazione */
+    header > section{
+      background-image: url("img/background.jpg");
+      padding: 50px 0;
+    }
 
-        /* burger */
-        .burger i{
-          margin: 0;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          font-size: 30px;
-          color: #2285fd;
-        }
-        /*  */
-header > section *{
-  border: 0;
-}
+    header .intestazione{
+      color: white;
+    }
 
-header > section{
-  background-image: url("img/background.jpg");
-  padding: 50px 0;
-}
+    header .intestazione > h1{
+      font-size: 80px;
+      font-weight: 600;
+    }
 
-header .intestazione{
-  color: white;
-}
+    header .intestazione > p{
+      color: darkgray;
+      font-size: 22px;
+      font-weight: 300;
+      padding: 0 5px;
+    }
 
-header .intestazione > h1{
-  font-size: 80px;
-  font-weight: 600;
-}
+    .get_started{
+      width: 95%;
+      margin: 0 auto;
+      background-color: white;
+      padding: 50px 17px;
+      border-radius: 7px;
+    }
 
-header .intestazione > p{
-  color: darkgray;
-  font-size: 22px;
-  font-weight: 300;
-  padding: 0 5px;
-}
-
-
-.get_started{
-  width: 95%;
-  margin: 0 auto;
-  background-color: white;
-  padding: 50px 17px;
-  border-radius: 7px;
-}
-
-.get_started h2{
-  font-size: 35px;
-  font-weight: 600;
-  padding: 0 5px;
-}
+    .get_started h2{
+      font-size: 35px;
+      font-weight: 600;
+      padding: 0 5px;
+    }
+  /*  */
 
 /*end sezione di testa  */
 
 
 
 /* sezione: sponsor */
-.sponsor *{
-  /* debug */
-  border: 0;
-}
-
 .sponsor{
   padding: 10px 75px;
   background-color: #f3f5f9;
@@ -196,16 +171,9 @@ header .intestazione > p{
   margin-left: 3px;
   font-size: 80%;
 }
-/*  */
-
-
+/* end sezione: sponsor */
 
 /* sezione info */
-.info *{
-  /* debug */
-  border: 0;
-}
-
 .info{
   padding: 50px 0;
 }
@@ -242,129 +210,24 @@ header .intestazione > p{
 .deploy h4{
   color: #5c6a88;
 }
+/* end sezione: info  */
 
-/*  */
 
-/* sezione: fordevs 1 */
-.fordevs_uno *{
-  /* debug */
-  /* border: 0; */
-}
-
-.fordevs_uno{
+/* sezione: fordevs 1 e 2 */
+.fordevs_uno, .fordevs_due{
   background-color: #f3f5f9;
   padding: 50px 0;
 }
 
-.fordevs_uno h2{
+.fordevs_uno h2, .fordevs_due h2{
   color: #031c4e;
+  font-size: 35px;
   font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .fordevs_uno h3{
   color: #5c6a88;
-}
-
-/*  */
-
-/* sezione: features */
-.features *{
-  /* debug */
-  border: 0;
-}
-
-.features{
-  padding: 50px 0;
-}
-
-.features img{
-  width: 50px;
-  height: auto;
-}
-
-.features h2, .features h3{
-  color: #031c4e;
-  font-weight: 600;
-}
-
-.features h2{
-  margin-bottom: 25px;
-}
-
-.features h3{
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.features h4{
-  color: #5c6a88;
-  font-size: 12px;
-  font-weight: 400;
-}
-
-.features h5{
-  color: #2b82ff;
-  font-size: 12px;
-  font-weight: 400;
-}
-
-.features i{
-  margin-left: 3px;
-  font-size: 80%;
-}
-
-/* sezione data */
-.data *{
-  /* debug */
- border: 0;
-}
-
-.data{
-  background-color: #0030aa;
-  color: white;
-  padding: 50px 0;
-}
-
-.data h2{
-  color: white;
-  font-weight: 600;
-}
-
-.data table{
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-.data table *{
-  border: none;
-  border-bottom: 1px solid white;
-  padding: 9px;
-  font-size: 15px;
-  font-weight: lighter;
-  color: gray;
-}
-
-.data th:first-child{
-  color: white;
-}
-
-.data th:last-child{
-  color: #00d5d1;
-}
-/*  */
-
-
-
-/* sezione: for devs 2 */
-.fordevs_due{
-  background-color: #f3f5f9;
-  padding: 50px 0;
-}
-
-
-.fordevs_due h2{
-  color: #031c4e;
-  font-weight: 600;
 }
 
 .infograf_cont{
@@ -402,16 +265,96 @@ header .intestazione > p{
   font-size: 120%;
   text-align: center;
 }
+/* end sezione: fordevs 1 e 2 */
+
+/* sezione: features */
+.features{
+  padding: 50px 0;
+}
+
+.features img{
+  width: 50px;
+  height: auto;
+}
+
+.features h2, .features h3{
+  color: #031c4e;
+  font-weight: 600;
+}
+
+.features h2{
+  margin-bottom: 25px;
+}
+
+.features h3{
+  font-size: 15px;
+}
+
+.features h4{
+  color: #5c6a88;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.features h5{
+  color: #2b82ff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.features i{
+  margin-left: 3px;
+  font-size: 80%;
+}
+/* end sezione: features */
+
+
+/* sezione data */
+.data{
+  background-color: #0030aa;
+  color: white;
+  padding: 50px 0;
+}
+
+.data h2{
+  color: white;
+  font-weight: 600;
+}
+
+.data table{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.data table *{
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 9px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.data th:first-child{
+  color: white;
+}
+
+.data th:last-child{
+  color: #00d5d1;
+}
+/* end sezione: data  */
+
+
+
+/* sezione: for devs 2 */
+
+/* raggruppato con fordevs 1 a riga 230 */
 
 /*  */
 
 
 
 /* sezione create_account */
-.create_account *{
-  border: 0 ;
-}
-
 .create_account{
   background-color: #0030aa;
   padding: 50px 0;
@@ -427,25 +370,14 @@ header .intestazione > p{
   background-color: white;
   color: #006aff;
 }
-/*  */
+/* end sezione: create_account  */
 
 
 
 /* footer */
 footer{
-  /* debug  */
-  margin-bottom: 0;
-  /*  */
   background-color: #010e28;
   padding: 50px 0;
-}
-
-footer *{
- border: 0;
-}
-
-footer [class*="col-"] {
-  background-color: inherit;
 }
 
 footer img{
@@ -464,4 +396,4 @@ footer h6, .socialbar{
   color: darkgray;
   margin-bottom: 25px;
 }
-/*  */
+/* end footer */

@@ -1,4 +1,8 @@
 /* regole generali */
+body, html {
+  width: 100%;
+}
+
 body > header > *, body > section > *, body > footer > *{
   /* necessario a centrare le col */
   width: 100%;
@@ -112,7 +116,7 @@ a:hover{
     }
 
     header .intestazione > h1{
-      font-size: 80px;
+      font-size: 67px;
       font-weight: 600;
     }
 

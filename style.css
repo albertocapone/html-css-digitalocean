@@ -34,7 +34,7 @@ a:hover{
   /* sottosezione: nav */
     /* regole generali */
     nav{
-    padding-bottom: 15px;
+    padding: 7.5px 0;
     }
 
     nav a{
@@ -89,6 +89,7 @@ a:hover{
         background-color: white;
         border-color: #006aff;
         color: #006aff;
+        line-height: unset;
       }
       /*  */
 
